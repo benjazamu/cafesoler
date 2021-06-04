@@ -1,0 +1,115 @@
+
+
+.main__ubicacion {
+    background: #fff;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+.contenedor__titulo {
+    text-align: center;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.main__ubicacion .direccion {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+
+.main__ubicacion .horarios {
+    float: right;
+    width: 50%;
+    overflow: hidden;
+}
+
+.direccion__domicilio {
+    margin-bottom: 15px;
+}
+
+.horarios__titulo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.horarios__entreSemana,
+.horarios__finDeSemana {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.main .mapa {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main .mapa iframe {
+    width: 100%;
+    max-height: 600px;
+}
+
+.main .contacto {
+    font-weight: 300;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .formulario {
+    margin: 15px auto;
+    width: 700px;
+    font-size: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 200px;
+    text-align: left;  
+}
+
+input {
+    width: 30%;
+    padding: 7px;
+    margin: 6px 0;
+    border-bottom: 3px solid #333;
+}
+
+input:focus {
+    background-color: transparent;
+    outline: none;
+    border-bottom: 3px solid #5ad;
+}
+
+ textarea {
+    outline: none;
+    border-radius: 3px;
+    width: 75%;
+    min-height: 90px;
+    border-bottom: 3px solid #333;
+    resize: none;
+}
+
+textarea:focus {
+border-bottom: 3px solid #5ad;
+
+}
+
+input.reseteo,
+input.enviar {
+padding: 9px;
+margin: 5px;
+font-size: 15px;
+background-color: #5dade2;
+border: none;
+border-radius: 16px;
+
+}
+
+input.reseteo:hover,
+input.enviar:hover {
+    background-color: #5f9;
+    border-bottom: none;
+}

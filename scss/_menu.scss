@@ -1,0 +1,67 @@
+.main .menu {
+    padding-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.contenedor__titulo {
+    font-size: 40px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+.menu--cambio {
+    padding-top: 15px;
+    text-align: center;
+    border: 1px solid #000;
+    background: transparent;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.contenedorMenu2__menu {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
+.contenedorMenu2__menu--categoria {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.main .menu .platos,
+.main .menu .bebidas{
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 4px dotted #000;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.platos__nombre,
+.bebidas__nombre {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: left;
+}
+
+.platos__precio,
+.bebidas__precio {
+    font-size: 20px;
+    margin-bottom: 15px;
+    float: right;
+}
+
+.platos__descripcion,
+.bebidas__descripcion {
+    font-size: 16px;
+    color: #676767;
+}

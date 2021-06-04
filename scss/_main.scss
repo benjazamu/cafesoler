@@ -1,0 +1,19 @@
+.main {
+    max-width: 1400px;
+    margin:auto;
+    overflow: hidden;
+}
+
+.carousel-inner,
+.carousel-item {
+    background: #000;
+    height: 550px;
+    overflow: hidden;
+
+    .d-block {
+        height: auto;
+        width: auto;
+    }
+}
+
+

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Soler | Contacto</title>
+    <link rel="icon" href="../img/logo.ico">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="css/estilosCSS.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <meta name="description" content="Si querés comunicarte con el equipo de Cafe Soler podés llenar el siguiente formulario y a la brevedad nos contactaremos para responder tu consulta">
+        <meta name="keywords"  content="Cafe, Restoran, Libros, Comidas, Pet Friendly, Contacto, Galeria, Fotos, Formulario, Horarios, Dias, Semanas, Fin de Semana, Pedidos, Reserva, Historia, Menu Digital, Menu Digital para Restaurantes, Menu Digital Qr, Cartas y Menus para Restaurantes">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">Cafe Soler</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./../index.html">Inicio</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./acerca-de.html">Acerca De</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="./menu.html">Menu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <section class="main">
+        <section class="main__ubicacion">
+            <div class="contenedor">
+                <h3 class="contenedor__titulo">Ubicacion Soler</h3>
+                <div class="direccion">
+                    <p class="direccion__domicilio">Soler 5911<br>Buenos Aires, Arg 1425</p>
+                    <p class="direccion__telefono">(011) 4774-1155</p>
+                    <p class="direccion__correo">cafesoler@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="horarios">
+                <h4 class="horarios__titulo">Horarios</h4>
+                <p class="horarios__entreSemana">Lunes a Viernes <br> 10:00am - 19:00pm</p>
+                <p class="horarios__finDeSemana">Sabados y Domingos <br> 11:00am - 18:00pm</p>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.023953033438!2d-58.43790828505327!3d-34.57826046365799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb593f506e641%3A0x679153c723993a2b!2sSoler%205911%2C%20C1425%20BYM%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1618857926482!5m2!1ses-419!2sar"
+                width="1600" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <h3 class="contacto">Contacto Soler</h3>
+
+        <form class="formulario">
+            <fieldset class="contenedorFormulario">
+                <legend>Hace tu pedido aca:</legend>
+                <br>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" class="nombre" required>
+                <br>
+                <label for="correo">Correo:</label>
+                <br>
+                <input type="email" class="correo" required>
+                <br>
+                <label for="telefono">Telefono:</label>
+                <br>
+                <input type="text" class="telefono" required>
+                <br>
+                <label for="direccion">Direccion:</label>
+                <br>
+                <input type="text" class="direccion" required>
+                <br><br>
+                <label for="horario">Hora de Entrega</label>
+                <select name="horario" class="horario" required>
+                    <option value="hora">12:00 pm</option>
+                    <option value="hora">13:00 pm</option>
+                    <option value="hora">14:00 pm</option>
+                    <option value="hora">15:00 pm</option>
+                    <option value="hora">16:00 pm</option>
+                    <option value="hora">17:00 pm</option>
+                    <option value="hora">18:00 pm</option>
+                    <option value="hora">19:00 pm</option>
+                    <option value="hora">20:00 pm</option>
+                    <option value="hora">21:00 pm</option>
+                    <option value="hora">22:00 pm</option>
+                    <option value="hora">23:00 pm</option>
+                </select>
+                <br><br>
+                <label for="fecha">Dia de entrega</label>
+                <br>
+                <input type="date" class="fecha" required>
+                <br><br>
+                <label for="descripcion">Describe tu pedido:</label>
+                <br>
+                <textarea name="descripcion" class="descripcion"></textarea>
+                <br>
+                <label for="informacion">¿Quiere recibir informacion sobre nuestras promociones?</label>
+                <br>
+                <input type="checkbox" class="informacion" value="si">SI
+                <input type="checkbox" class="informacion" value="no">NO
+                <br><br>
+
+                <input type="reset" value="Reiniciar" class="reseteo">
+                <input type="submit" value="Enviar" class="enviar">
+            </fieldset>
+        </form>
+
+    </section>
+
+    <footer>
+        <div class="footer-copyright text-center py-3 bg-dark">
+            <h6 class="text-white">© 2021 Copyright Benjamin Zamudio</h4>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
+
+
+</body>
+
+</html>
